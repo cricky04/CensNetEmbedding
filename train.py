@@ -151,7 +151,7 @@ def experimenter(data_name='cora', train_ratio=0.03, cuda=True, random_seed=42, 
 if __name__ == '__main__':
     # Look for your absolute directory path
     absolute_path = os.path.dirname(os.path.abspath(__file__))
-    file_path = "../results/citeseer_1pct/" + args.saved_name
+    file_path = "./results/citeseer_1pct/" + args.saved_name
     with open(file_path, "w") as text_file:
         for i in range(args.replicates):
             np.random.seed(args.seed)

@@ -6,7 +6,7 @@ import pickle as pkl
 import networkx as nx
 import scipy.sparse as sp
 from scipy.spatial.distance import pdist, squareform
-from scipy.sparse.linalg.eigen.arpack import eigsh
+from scipy.sparse.linalg.eigen import eigsh
 import sys
 import os
 
